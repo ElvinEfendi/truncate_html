@@ -25,6 +25,10 @@ module TruncateHtml
       build_output
     end
 
+    def truncated_html
+      @truncated_html
+    end
+
     private
 
     def word_boundary
